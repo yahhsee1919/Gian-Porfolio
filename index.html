@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="input.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <script
+      src="https://kit.fontawesome.com/52da63830c.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/script.js" defer></script>
+    <title>Gian|Designs</title>
+  </head>
+  <body class="overflowX-hidden">
+    <!-- NavBar -->
+
+    <nav class="relative mx-auto l bg-white mb-24 z-50 md:px-24 lg:mb-32">
+      <!-- Flex Container for all items -->
+      <div class="flex items-center justify-between p-6">
+        <h1 class="text-3xl font-bold">
+          GIAN | <span class="italic" style="color: #24927f">code</span>
+        </h1>
+        <div class="hidden lg:flex space-x-8 font-bold">
+          <a href="#" class="text-xl" style="color: #808080; text-decoration: none;" onmouseover="this.style.color='#24927f';" onmouseout="this.style.color='#808080';">
+          Home</a>
+
+          <a href="#about" class="text-xl" style="color: #808080; text-decoration: none;" onmouseover="this.style.color='#24927f';" onmouseout="this.style.color='#808080';">
+          About</a>
+
+          <a href="#projects" class="text-xl" style="color: #808080; text-decoration: none;" onmouseover="this.style.color='#24927f';" onmouseout="this.style.color='#808080';">
+          Projects</a>
+
+          <a href="#contact" class="text-xl" style="color: #808080; text-decoration: none;" onmouseover="this.style.color='#24927f';" onmouseout="this.style.color='#808080';">Contact</a>
+
+        </div>
+
+        <!-- hamburger menu -->
+        <button
+          id="menu-btn"
+          class="block hamburger lg:hidden focus:outline-none"
+          type="button "
+        >
+          <span class="hamburger-top"></span>
+          <span class="hamburger-middle"></span>
+          <span class="hamburger-bottom"></span>
+        </button>
+      </div>
+
+      <!-- Mobile Menu -->
+      <div
+        id="menu"
+        class="absolute hidden p-6 rounded-lg bg-gray-900 left-6 right-6 top-20 z-100 opacity-95"
+      >
+        <div
+          class="flex flex-col items-center justify-center w-full space-y-6 font-bold text-white rounded-sm"
+        >
+          <a 
+          href="#" class="w-full pt-6 text-center" style="color: inherit; text-decoration: none;" onmouseover="this.style.color='#24927f';" onmouseout="this.style.color='inherit';">
+          Home</a
+          >
+
+          <a 
+          href="#about" class="w-full pt-6 border-t border-gray-600 text-center" style="color: inherit; text-decoration: none;" onmouseover="this.style.color='#24927f';" onmouseout="this.style.color='inherit';">
+          About</a
+          >
+
+          <a 
+          href="#projects" class="w-full pt-6 border-t border-gray-600 text-center" style="color: inherit; text-decoration: none;" onmouseover="this.style.color='#24927f';" onmouseout="this.style.color='inherit';">
+          Projects</a
+          >
+
+          <a 
+          href="#contact" class="w-full pt-6 border-t border-gray-600 text-center" style="color: inherit; text-decoration: none;" onmouseover="this.style.color='#24927f';" onmouseout="this.style.color='inherit';">
+          Contact</a
+          >
+
+        </div>
+      </div>
+    </nav>
+    <!-- Hero Section -->
+
+    <section id="hero">
+      <!-- hero Container -->
+      <section
+        class="container flex flex-col-reverse mx-auto md:mb-12 p-6 lg:flex-row"
+      >
+        <!-- Content Container -->
+        <div class="flex flex-col space-y-10 mb-12 lg:mt-16 lg:w-1/2 xl:mb-52">
+          <h1 class="text-5xl font-bold text-center lg:text-6xl lg:max-w-xl lg:text-left capitalize tracking-wide">
+            <span style="color: #24927f;">
+              
+            Front-End Developer</span>
+            <span style="display: inline-block" class="animate-waving md:left-[50%] md:top-12">
+              
+              👋🏻</span>
+          </h1>
+
+          <p
+            class="text-2xl text-center text-gray-400 lg:max-w-md lg:text-left tracking-wide"
+          >
+            Hi, I'm GIAN, a passionate Front-end React Developer based in the
+            Philippines
+            <i class="fa-solid fa-map-pin fa-beat" style="color: #24927f"></i>
+          </p>
+          <!-- buttons -->
+          <div class="flex space-x-6">
+            <a href="mailto:yahhsee1919@gmail.com?subject=Important" class="py-4 px-8 text-white tracking-wider font-semibold rounded-full hover:text-black hover:scale-105 duration-200" style="background-color: #24927f;">
+            HIRE ME</a>
+
+            <a href="https://www.canva.com/design/DAF8x65SI1g/heOoaHzn7NcQEpeI05HQ3A/edit?utm_content=DAF8x65SI1g&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" target="_blank" class="py-4 px-8 tracking-wider font-semibold rounded-full hover:text-black hover:scale-105 duration-200" style="color: #24927f; border: 2px solid #24927f;">DOWNLOAD MY CV</a>
+
+          </div>
+          <!-- Container for social media -->
+          <div class="mx-auto lg:mx-0">
+            <div class="flex items-center space-x-8 py-5">
+              <a
+                href="https://www.linkedin.com/in/gian-carlo-sia/"
+                target="_blank"
+              >
+                <img
+                  src="images/linkedin-round-svgrepo-com.svg"
+                  alt=""
+                  class="h-10"
+                />
+              </a>
+              <a href="https://github.com/yahhsee1919" target="_blank">
+                <img src="images/github-svgrepo-com.svg" alt="" class="h-10" />
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- Hero Image -->
+        <div class="mb-24 mx-auto lg:w-1/2 lg:mb-0">
+          <div class="box"></div>
+        </div>
+      </section>
+
+      <!-- Tech Stack Section -->
+      <div
+        class="container flex flex-col space-y-10 items-center justify-center mx-auto mb-44 md:flex-row md:space-y-0 md:space-x-12 md:mr-auto md:mb-80"
+      >
+      <h1 class="text-xl py-6 font-bold uppercase border-b-4 border-gray-400 md:border-r-4 md:border-gray-400 md:border-b-0 md:pr-6" style="color: #24927f;">
+        tech stack
+      </h1>
+      
+        <div
+          class="flex mx-auto items-center justify-between space-x-6 md:space-x-12"
+        >
+          <img src="images/html-5-svgrepo-com.svg" alt="" class="h-14" />
+          <img src="images/css-3-svgrepo-com.svg" alt="" class="h-14" />
+          <img src="images/javascript-svgrepo-com.svg" alt="" class="h-14" />
+          <img src="images/react-svgrepo-com.svg" alt="" class="h-14" />
+          <img src="images/tailwind-svgrepo-com.svg" alt="" class="h-14" />
+          <img src="images/scss2-svgrepo-com.svg" alt="" class="h-14" />
+        </div>
+      </div>
+    </section>
+
+    <!-- About section -->
+    <section id="about">
+      <!-- about container -->
+      <div
+        class="relative container flex flex-col items-center max-w-6xl mx-auto my-32 px-6 mb-12 text-gray-600 md:flex-row md:px-0"
+      >
+        <!-- image -->
+        <div class="relative">
+          <img
+            src="images/gian pic 2x2(3).jpg"
+            alt=""
+            class="h-auto max-w-lg rounded-lg brightness-90 shadow-2xl"
+          />
+          <div class="circle bottom-32 left-[75%]">
+            <div class="text">
+              <p>Front-end Developer * Front-end Developer *</p>
+            </div>
+            <img src="images/spin-logo.png" alt="" class="absolute w-32"/>
+
+          </div>
+        </div>
+        <!-- Text Container -->
+        <div class="top-24 pr-0 bg-white md:absolute md:right-0 md:p-6">
+          <h2 class="max-w-lg mt-10 pb-2 mb-6 text-xl font-bold border-b-4 border-gray-600 text-center uppercase md:text-xl md:mt-0 md:text-left" style="color: #24927f;">
+            about me
+        </h2>
+        
+          <h2
+            class="max-w-lg mt-10 mb-6 text-2xl text-center text-gray-600 uppercase md:text-3xl md:mt-0 md:text-left tracking-wider"
+          >
+            A passionate developer from the Philippines
+            <i class="fa-solid fa-map-pin fa-beat" style="color:#24927f"></i>
+          </h2>
+          <p class="max-w-md mx-auto md:mx-0 tracking-wider">
+            As a creative developer, I thrive on transforming concepts into tangible digital experiences. My forte lies in transforming designs into dynamic, adaptable websites and emails, leveraging my technical prowess to enrich and tailor their functionalities. My aim is to engineer visually captivating, intuitive, and dynamic digital solutions that ensure effortless navigation across diverse devices and screen resolutions.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- offer heading -->
+    <section id="offer">
+      <div class="container mx-auto mt-16 px-6">
+        <h2 class="mb-6 text-4xl font-semibold text-center" style="color: #24927f;">
+          What I Offer
+        </h2>
+      
+        <p class="max-w-4xl mx-auto text-center text-gray-600 tracking-wider">
+          I offer a unique blend of web development and web design skills,
+          making me a versatile asset. I'm not just a coder; I'm a creative
+          problem solver who can craft visually appealing and user-friendly
+          websites. I thrive in collaborative environments and believe that
+          working together yields the most innovative results. Whether you need
+          a web developer, a designer, or a team player, I'm here to help bring
+          your digital vision to life.
+        </p>
+      </div>
+    </section>
+
+    <!-- tabs -->
+    <section id="tabs ">
+      <div class="mx-auto my-6 mb-44 mt-12 px-6">
+        <!-- tabs flex container -->
+        <div
+          class="flex flex-col justify-center max-w-xl mx-auto mb-6 border-b md:space-x-10 md:flex-row"
+        >
+        <!-- tab 1 -->
+        <div class="flex justify-center text-center text-gray-600 border-b md:border-b-0 md:w-1/3 tab" data-target="panel-1" onmouseover="this.style.color='#24927f';" onmouseout="this.style.color='#808080';"
+        >
+        <div class="py-5 px-10 border-b-4" style="border-color: #24927f;" data-target="panel-1" onmouseover="this.parentNode.style.color='#24927f';" onmouseout="this.parentNode.style.color='#808080';"
+        >
+        Web Development
+        </div
+        >
+        </div
+        >
+        
+        <!-- tab 2 -->
+        <div class="flex justify-center text-center text-gray-600 border-b md:border-b-0 md:w-1/3 tab" data-target="panel-2" onmouseover="this.style.color='#24927f';" onmouseout="this.style.color='#808080';"
+        >
+        <div class="py-5 px-10 border-b-4" style="border-color: #24927f;" data-target="panel-2" onmouseover="this.parentNode.style.color='#24927f';" onmouseout="this.parentNode.style.color='#808080';"
+        >
+        Design
+        </div
+        >
+        </div>
+        
+        <!-- tab 3 -->
+        <div class="flex justify-center text-center text-gray-600 border-b md:border-b-0 md:w-1/3 tab" data-target="panel-3" onmouseover="this.style.color='#24927f';" onmouseout="this.style.color='#808080';"
+        >
+        <div class="py-5 px-10 border-b-4" style="border-color: #24927f;" data-target="panel-3" onmouseover="this.parentNode.style.color='#24927f';" onmouseout="this.parentNode.style.color='#808080';"
+        >
+        Team Player
+        </div
+        >
+        </div>
+        
+        </div>
+
+        <!-- Tab panel/content -->
+        <section class="section mx-auto md:max-w-4xl" id="panels">
+          <!-- Panel 1 -->
+          <div
+            class="flex flex-col py-5 md:flex-row md:space-x-7 panel panel-1"
+          >
+            <!-- panel img -->
+            <div class="flex justify-end md:w-1/2 overflow-hidden">
+              <!-- image for panel 1 here -->
+              <img
+                src="images/Web-development.webp"
+                alt=""
+                class="relative z-10 lg:w-[472px] lg:h-[308px] duration-200 hover:scale-110"
+              />
+            </div>
+            <!-- panel content -->
+            <div class="flex flex-col space-y-8 md:w-1/2">
+
+            <h3 class="mt-14 text-3xl font-semibold text-center md:mt-0 md:text-left" style="color: #24927f;"
+            >
+            Built to code
+            </h3>
+            
+              <p
+                class="max-w-md text-center text-gray-600 md:text-left tracking-wider"
+              >
+                I'm driven by an unwavering passion for web development, a
+                journey I feel deeply connected to. Crafting dynamic, visually
+                captivating websites is not just a job but my calling. Each
+                project fuels my exploration of web development's limitless
+                possibilities.
+              </p>
+            </div>
+          </div>
+
+          <!-- Panel 2 -->
+          <div
+            class="flex flex-col hidden py-5 md:flex-row md:space-x-7 panel panel-2"
+          >
+            <!-- panel img -->
+            <div class="flex justify-end md:w-1/2 overflow-hidden">
+              <!-- image for panel 1 here -->
+              <img
+                src="images/web-design.png"
+                alt=""
+                class="relative z-10 lg:w-[472px] lg:h-[308px] duration-200 hover:scale-110"
+              />
+            </div>
+            <!-- panel content -->
+            <div class="flex flex-col space-y-8 md:w-1/2">
+              
+              <h3 class="mt-14 text-3xl font-semibold text-center md:mt-0 md:text-left" style="color: #24927f;"
+              >
+              Harmonious Designs
+              </h3>
+
+              <p
+                class="max-w-md text-center text-gray-600 md:text-left tracking-wider"
+              >
+                Beyond coding, I have a genuine passion for web design, where I
+                blend creativity and functionality to craft visually appealing,
+                user-friendly interfaces. I love selecting colors, typography,
+                and layouts to create beautiful digital spaces where design and
+                functionality coexist harmoniously, bringing ideas to life.
+              </p>
+            </div>
+          </div>
+
+          <!-- Panel 3 -->
+          <div
+            class="flex flex-col hidden py-5 md:flex-row md:space-x-7 panel panel-3"
+          >
+            <!-- panel img -->
+            <div class="flex justify-end md:w-1/2 overflow-hidden">
+              <!-- image for panel 1 here -->
+              <img
+                src="images/team player.webp"
+                alt=""
+                class="relative z-10 lg:w-[472px] lg:h-[308px] duration-200 hover:scale-110"
+              />
+            </div>
+            <!-- panel content -->
+            <div class="flex flex-col space-y-8 md:w-1/2">
+              
+              <h3 class="mt-14 text-3xl font-semibold text-center md:mt-0 md:text-left" style="color: #24927f;"
+              >
+              People's people
+              </h3>
+            
+              <p
+                class="max-w-md text-center text-gray-600 md:text-left tracking-wider"
+              >
+                I'm an adaptable and collaborative team player in web
+                development, valuing the power of collective effort and
+                continuous learning. I'm open to feedback, easy to work with,
+                and thrive in an environment where ideas are collectively
+                refined. My ability to quickly grasp new concepts has been a
+                valuable asset in my journey as a web developer, as I approach
+                each project as an opportunity to both apply existing skills and
+                expand my knowledge base.
+              </p>
+            </div>
+          </div>
+        </section>
+      </div>
+    </section>
+
+    <!-- Project section -->
+    <section id="projects">
+      <!-- project container -->
+      <div class="container max-w-6xl mx-auto my-32 px-6 md:px-0" style="color: #24927f;">
+
+        <!-- project header -->
+        <div class="flex justify-center mb-20 md:justify-start">
+          <h2
+            class="text-xl font-semibold text-center uppercase md:text-left md:text-2xl"
+          >
+            My Creations
+          </h2>
+        </div>
+
+        <!-- items containers -->
+        <div
+          class="flex flex-col justify-between w-full space-y-6 text-2xl text-white md:flex-row md:space-y-0 md:space-x-8"
+        >
+          <!-- item 1 -->
+          <div class="group relative overflow-hidden md:w-1/4">
+            <img
+              src="images/myteam.png"
+              alt=""
+              class="w-full duration-200 group-hover:scale-110"
+            />
+            <!-- Item gradient -->
+            <div
+              class="absolute top-0 bottom-0 right-0 left-0 bg-gradient-to-b from-transparent to-gray-900 group-hover:from-gray-50 group-hover:to-gray-900 group-hover:opacity-70"
+            ></div>
+            <!-- Item Text -->
+            <div
+              class="absolute bottom-0 flex flex-col space-y-6 items-start justify-center w-full p-6 rounded-t-xl bg-white bg-opacity-40 group-hover:text-black group-hover:bg-opacity-60"
+              >
+              <h1 class="text-xl font-bold tracking-widest">MYTEAMS</h1>
+              <p class="text-sm">
+                A multi-page, highly responsive website, connecting businesses
+                with skilled employees efficiently and effectively.
+              </p>
+              <div class="flex items-center jsutify-between space-x-2">
+                
+                <a href="https://github.com/yahhsee1919/2myTeam.git" target="_blank" class="text-sm py-2 px-8 rounded-full font-semibold bg-white bg-opacity-40 text-white hover:scale-105 duration-200" style="color: #fff;" onmouseover="this.style.color='#24927f';" onmouseout="this.style.color='#fff';">
+                CODE</a
+                >
+
+                <a href="https://gianmyteam.netlify.app" target="_blank" class="text-sm py-2 px-8 rounded-full font-semibold bg-white bg-opacity-40 text-white hover:scale-105 duration-200" style="color: #fff;" onmouseover="this.style.color='#24927f';" onmouseout="this.style.color='#fff';">
+                  Live</a
+                >
+
+              </div>
+            </div>
+          </div>
+          <!-- item 2 -->
+          <div class="group relative overflow-hidden md:w-1/4">
+            <img
+              src="images/dine.png"
+              alt=""
+              class="w-full duration-200 group-hover:scale-110"
+            />
+            <!-- Item gradient -->
+            <div
+              class="absolute top-0 bottom-0 right-0 left-0 bg-gradient-to-b from-transparent to-gray-900 group-hover:from-gray-50 group-hover:to-gray-900 group-hover:opacity-70"
+            ></div>
+            <!-- Item Text -->
+            <div
+              class="absolute bottom-0 flex flex-col space-y-6 items-start justify-center w-full p-6 rounded-t-xl bg-white bg-opacity-40 group-hover:text-black group-hover:bg-opacity-60"
+            >
+              <h1 class="text-xl font-bold tracking-widest">DINE</h1>
+              <p class="text-sm">
+                A restaurant website, your gateway to savoring our culinary
+                delights and experiencing exceptional dining.
+              </p>
+              <div class="flex items-center jsutify-between space-x-2">
+                
+                <a href="https://github.com/yahhsee1919/3GianDine.git" target="_blank" class="text-sm py-2 px-8 rounded-full font-semibold bg-white bg-opacity-40 text-white hover:scale-105 duration-200" style="color: #fff;" onmouseover="this.style.color='#24927f';" onmouseout="this.style.color='#fff';">
+                CODE</a
+                >
+
+                <a href="https://giandinein.netlify.app" target="_blank" class="text-sm py-2 px-8 rounded-full font-semibold bg-white bg-opacity-40 text-white hover:scale-105 duration-200" style="color: #fff;" onmouseover="this.style.color='#24927f';" onmouseout="this.style.color='#fff';">
+                Live</a
+                >
+
+              </div>
+            </div>
+          </div>
+          <!-- item 1 -->
+          <div class="group relative overflow-hidden md:w-1/4">
+            <img
+              src="images/easy-banking.png"
+              alt=""
+              class="w-full duration-200 group-hover:scale-110"
+            />
+            <!-- Item gradient -->
+            <div
+              class="absolute top-0 bottom-0 right-0 left-0 bg-gradient-to-b from-transparent to-gray-900 group-hover:from-gray-50 group-hover:to-gray-900 group-hover:opacity-70"
+            ></div>
+            <!-- Item Text -->
+            <div
+              class="absolute bottom-0 flex flex-col space-y-6 items-start justify-center w-full p-6 rounded-t-xl bg-white bg-opacity-40 group-hover:text-black group-hover:bg-opacity-60"
+            >
+              <h1 class="text-xl font-bold tracking-widest">EASY BANKING</h1>
+              <p class="text-sm">
+                A responsive banking landing page, expertly crafted for an
+                optimal user experience on all screen sizes.
+              </p>
+              <div class="flex items-center jsutify-between space-x-2">
+                <a href="https://github.com/yahhsee1919/4easyBanking.git" target="_blank" class="text-sm py-2 px-8 rounded-full font-semibold bg-white bg-opacity-40 text-white hover:scale-105 duration-200" style="color: #fff;" onmouseover="this.style.color='#24927f';" onmouseout="this.style.color='#fff';">
+                CODE</a
+                >
+
+                <a href="https://gianeasybanking.netlify.app" target="_blank" class="text-sm py-2 px-8 rounded-full font-semibold bg-white bg-opacity-40 text-white hover:scale-105 duration-200" style="color: #fff;" onmouseover="this.style.color='#24927f';" onmouseout="this.style.color='#fff';">
+                Live</a
+                >
+
+              </div>
+            </div>
+          </div>
+          <!-- item 4 -->
+          <div class="group relative overflow-hidden md:w-1/4">
+            <img
+              src="images/archWebsite.png"
+              alt=""
+              class="w-full duration-200 group-hover:scale-110"
+            />
+            <!-- Item gradient -->
+            <div
+              class="absolute top-0 bottom-0 right-0 left-0 bg-gradient-to-b from-transparent to-gray-900 group-hover:from-gray-50 group-hover:to-gray-900 group-hover:opacity-70"
+            ></div>
+            <!-- Item Text -->
+            <div
+              class="absolute bottom-0 flex flex-col space-y-6 items-start justify-center w-full p-6 rounded-t-xl bg-white bg-opacity-40 group-hover:text-black group-hover:bg-opacity-60"
+            >
+              <h1 class="text-xl font-bold tracking-widest">Arch Website</h1>
+              <p class="text-sm">
+                A multi-page landing page showcasing completed projects, crafted
+                to captivate users in your work's beauty.
+              </p>
+              <div class="flex items-center jsutify-between space-x-2">
+                
+                <a href="https://github.com/yahhsee1919/5GianArch.git" target="_blank" class="text-sm py-2 px-8 rounded-full font-semibold bg-white bg-opacity-40 text-white hover:scale-105 duration-200" style="color: #fff;" onmouseover="this.style.color='#24927f';" onmouseout="this.style.color='#fff';">
+                CODE</a
+                >
+
+                <a href="https://gianarch.netlify.app" target="_blank" class="text-sm py-2 px-8 rounded-full font-semibold bg-white bg-opacity-40 text-white hover:scale-105 duration-200" style="color: #fff;" onmouseover="this.style.color='#24927f';" onmouseout="this.style.color='#fff';">
+                Live</a
+                >
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container max-w-6xl mx-auto my-32 px-6 md:px-0" style="color: #24927f;">
+
+        <div
+          class="flex flex-col justify-center space-y-3 mb-16 md:justify-start"
+        >
+          <h2
+            class="text-xl font-semibold text-center uppercase md:text-left md:text-2xl"
+          >
+            Contact
+          </h2>
+          <h1
+            class="text-2xl font-bold text-gray-600 text-center md:text-left md:text-3xl"
+          >
+            You can reach me here!
+          </h1>
+        </div>
+        <div
+          class="flex flex-col group justify-center items-center space-y-8 mb-20 md:flex-row md:space-y-0 md:space-x-12 md:justify-start"
+        >
+          <div class="flex items-center space-x-8 max-w-md">
+            <i
+              class="fa-solid fa-map-location-dot fa-2xl"
+              style="color: #24927f"
+            ></i>
+            <div class="flex flex-col space-y-2 justify-start">
+              <h1 class="text-2xl font-semibold text-gray-600">Location</h1>
+              <p class="text-lg text-gray-400">
+                Philippines, Davao City
+              </p>
+            </div>
+          </div>
+          <a
+            href="mailto:yahsee1919@gmail.com?subject=Important"
+            class="flex items-center space-x-8 max-w-md hover:scale-110 duration-500"
+          >
+            <i class="fa-solid fa-envelope fa-2xl" style="color: #24927f"></i>
+            <div class="flex flex-col space-y-2 justify-start">
+              <h1 class="text-2xl font-semibold text-gray-600">Mail</h1>
+              <p class="text-lg text-gray-400">
+                yahsee1919@gmail.com 
+              </p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="bg-gray-600">
+      <!-- container -->
+      <div class="container max-w-6xl py-10 mx-auto">
+        <!-- footer flex container -->
+        <div
+          class="flex flex-col items-center mb-8 space-y-6 md:flex-row md:space-y-0 md:justify-between md:items-start"
+        >
+          <!-- menu & logo -->
+          <div
+            class="flex flex-col items-center space-y-8 md:items-start md:space-y-4"
+          >
+            <!-- logo -->
+            <div class="h-8">
+              <h1 class="text-3xl font-bold text-black">GIAN | Designs</h1>
+            </div>
+            <div
+              class="flex flex-col items-center text-semibold space-y-4 text-black md:flex-row md:space-y-0 md:space-x-6"
+            >
+              <!-- item 1 -->
+              <div class="h-10 group">
+                <a href="#" onmouseover="this.style.color='#18fff5';" onmouseout="this.style.color='';">Home</a>
+
+              </div>
+              <!-- item 1 -->
+              <div class="h-10 group">
+                <a href="#about" onmouseover="this.style.color='#18fff5';" onmouseout="this.style.color='';">About</a>
+
+              </div>
+              <!-- item 1 -->
+              <div class="h-10 group">
+                <a href="#projects" onmouseover="this.style.color='#18fff5';" onmouseout="this.style.color='';">Project</a>
+
+              </div>
+              <!-- item 1 -->
+              <div class="h-10 group">
+                <a href="#contact" onmouseover="this.style.color='#18fff5';" onmouseout="this.style.color='';">Contact</a>
+
+              </div>
+            </div>
+          </div>
+          <!-- social & copy -->
+          <div
+            class="flex flex-col items-center justify-between space-y-4 text-white md:items-start"
+          >
+            <!-- icons container -->
+            <div
+              class="flex items-center justify-center space-x-4 md:justify-end"
+            >
+              <!-- icon 1 -->
+
+              <!-- icon 1 -->
+              <div class="h-8 group">
+                <a
+                  href="https://www.linkedin.com/in/miguel-lim-491a72252/"
+                  target="_blank"
+                >
+                  <img
+                    src="images/linkedin-round-svgrepo-com.svg"
+                    alt=""
+                    class="h-6"
+                  />
+                </a>
+              </div>
+              <!-- icon 1 -->
+              <div class="h-8 group">
+                <a href="https://github.com/yahhsee1919" target="_blank">
+                  <img src="images/github-svgrepo-com.svg" alt="" class="h-6" />
+                </a>
+              </div>
+            </div>
+
+            <!-- copy -->
+            <div class="text-md text-gray-800 font-semibold">
+              &copy; 2023 GIAN | Designs. All Rights Reserved
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
+
+<!--  -->
